@@ -1,7 +1,7 @@
 const languages = ['C is fun', 'Python is cool', 'JavaScript is amazing'];
 
-let output = '';
+const output = [];
 for (let i = 0; i < languages.length; i++) {
-  output += languages[i] + '\n';
+  output.push(languages[i]);
 }
-console.log(output.trim());
+console.log(output.join('\n'));
