@@ -1,5 +1,7 @@
-const language = ['C is fun', 'Python is cool', 'JavaScript is amazing'];
+const languages = ['C is fun', 'Python is cool', 'JavaScript is amazing'];
 
-for (let i= 0; i < langs.length; i++) {
-  console.log(langs[i]); ;
+let output = '';
+for (let i = 0; i < languages.length; i++) {
+  output += languages[i] + '\n';
 }
+console.log(output.trim());
