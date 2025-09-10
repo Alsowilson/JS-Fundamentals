@@ -1,7 +1,9 @@
-const languages = ['C is fun', 'Python is cool', 'JavaScript is amazing'];
+const lines = [
+  "C is fun",
+  "Python is cool",
+  "JavaScript is amazing"
+];
 
-const output = [];
-for (let i = 0; i < languages.length; i++) {
-  output.push(languages[i]);
+for (const line of lines) {
+  console.log(line);
 }
-console.log(output.join('\n'));
